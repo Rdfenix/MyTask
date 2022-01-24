@@ -1,0 +1,24 @@
+.section-container {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.inputfield,
+.buttonfield {
+  display: flex;
+  gap: 20px;
+}
+
+.inputfield input {
+  padding: 10px;
+}
+
+.sectionWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

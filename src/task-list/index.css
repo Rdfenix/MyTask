@@ -1,0 +1,19 @@
+.taskListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.counterInfo {
+  display: flex;
+  gap: 5px;
+}
+
+.counterInfo span:nth-child(2) {
+  font-weight: bold;
+}
+
+.taskList > ul > li {
+  display: flex;
+  flex-direction: column;
+}
